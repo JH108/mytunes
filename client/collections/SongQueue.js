@@ -16,7 +16,6 @@ var SongQueue = Backbone.Collection.extend({
       }
     });
     this.on('dequeue', function(song) {
-      // if enqueue is not working properly change to this.at(0)
       this.remove(song);
     });
   },

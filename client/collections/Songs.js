@@ -10,7 +10,5 @@ var Songs = Backbone.Collection.extend({
   }
 });
 
-//url
-//parse => function, does something with the data
-//.onSync
+
 

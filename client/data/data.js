@@ -25,26 +25,3 @@ var songData = [
   }
 ];
 
-  // $.ajax({
-  //   type: 'GET',
-  //   url: 'http://parse.hrr.hackreactor.com/mytunes/classes/songs',
-  //   success: getSongs
-  // });
-
-  // function getSongs(data){
-  //   console.log(songData)
-  //   data.results.forEach(function(song){
-  //     songData.push({
-  //       url: song.url,
-  //       title: song.title,
-  //       artist: song.artist
-  //     });
-  //   });
-  //   rendersongs();
-  // }
-
-
-// function rendersongs(){
-
-
-// }
